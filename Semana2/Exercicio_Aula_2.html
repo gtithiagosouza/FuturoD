@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sua Página HTML</title>
+</head>
+
+<body>
+
+  <script>
+    let noivo = window.prompt("Qual nome dos noivo?");
+    let noiva = window.prompt("Qual nome dos noiva?");
+    let nome = window.prompt("Qual seu nome no convite?");
+
+    document.write(`<h1 id="texto1"> Noivos Senhor e Senhora ${noivo} & ${noiva}</h1>`);
+
+    document.write(`<h1 id="texto"> olá, com prazer estaremos convidando o senhor ${nome} para o casamento mais esperado do ano. </h1>`);
+  </script>
+
+  <style>
+    #texto1 {
+      padding: 00;
+      margin: 0;
+      width: 100vw;
+      text-align: center;
+      font-size: 60px;
+      color: rgb(173, 33, 33);
+      background-color: aquamarine;
+
+    }
+
+    #texto {
+      padding: 0;
+      margin: 0;
+      height: 100vh;
+      width: 100vw;
+      text-align: center;
+      font-size: 60px;
+      color: rgb(129, 80, 80);
+      background-color: aquamarine;
+      display: flex;
+      align-items: center;
+    }
+  </style>
+
+
+
+</body>
+
+</html>
