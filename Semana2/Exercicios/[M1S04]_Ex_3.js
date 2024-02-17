@@ -1,21 +1,18 @@
-//meu exericicio
+//meu exericicio For
 const Media = (num) => {
   let soma = 0;
-  for (let i = 0; i < num.length; i++) {
-  soma += num[i];
+  for (i = 0; i < num.length; i++) {
+  soma += num[i]; // soma = soma + nun[1]
   }
-  const media1 = soma / num.length;
+  const media1 = soma/num.length;
   return media1;
 };
-const numeros = [10,10,10,8];
-console.log(Media(numeros));
+const num = [10,10,10,7];
+console.log(Media(num));
 
 
 
-
-
-
-// Corrigido Professora
+// Corrigido Professora For of
 const exercicio = (array) => {
   let soma = 0;
   for(let numero of array) {
