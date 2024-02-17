@@ -1,4 +1,3 @@
-
 const prompt = require("prompt-sync")();
 var numero = prompt("Vamos descobrir se é par ou impar: ");
 

@@ -1,7 +1,16 @@
-const adicao = function(a, b){
-  return a + b
+// Corrigido Professora
+function adicao(numero1, numero2, funcaoAnonima) {
+  let soma = numero1 + numero2;
+  funcaoAnonima(soma);
 }
 
-resultado = adicao(5,5);
+adicao(2,2,(sum) => { console.log("O resultado final é: " + sum)})
 
-console.log(`ele é ${resultado}`);
+
+// Meu Exercicio
+const adicao = function(a, b, funcao) {
+  let soma = a + b;
+  funcao(soma);
+}
+
+adicao(4, 4, (sum) => { console.log("O resultado final é: " + sum); });
